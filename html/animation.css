@@ -1,0 +1,32 @@
+.container{
+    width:450px;
+    height: 450px;
+    background-color: aqua;
+    border: 1px solid black;
+
+    /*
+    
+     animation-name:pulse;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    
+    */
+animation:pulse 5s ease-in infinite;
+
+}
+
+@keyframes pulse {
+    0% {
+        background-color:lightblue;
+        transform: rotate(0deg);
+    }
+    100%{
+        background-color:coral;
+        transform: rotate(180deg);
+    }
+}
+
+div:hover{
+    animation-play-state: paused;
+}

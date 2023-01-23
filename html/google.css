@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(224, 235, 235);
+    margin: 0px;
+    font-style: normal;
+}
+nav{
+    
+    display: inline;
+    align-items: right;
+    position:relative;
+    padding: 5px;
+   
+
+}
+nav span{
+    align-items: right;
+    margin: 4px;
+    position: relative;
+    right: -75%;
+}
+h1{
+    text-align: center;
+    margin-top:200px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+}
+h1{
+    padding:0px;
+    box-sizing: border-box;
+}
+h1::first-letter{
+    color:rgb(0, 123, 255);
+    font-size: 90px;
+    padding: 0px;
+    width: 100%;
+}
+h1 .second{
+    color:rgb(255, 0, 140);
+    font-size: 90px;
+}
+h1 .third{
+    color:rgb(243, 171, 78);
+    font-size: 90px;
+}
+h1 .forth{
+    color:rgb(0, 123, 255);
+    font-size: 84px;
+}
+h1 .fifth{
+    color:green;
+    font-size: 90px;
+}
+.form1{
+    align-items: center;
+margin-left: 26%;
+width: 500px;
+display:inline-block;
+}
+.input{
+    display:block;
+    width: 100%;
+    height: auto;
+    padding:10px;
+    border:1px solid rgba(255, 233, 234, 0.267);
+    border-radius: 20px;
+    margin-bottom: 1px;
+    position: relative;
+    left: -50px;
+}
+.input:active{
+   border-style: none;
+
+}
+.btn-search{
+    align-items: center;
+    margin: 20px 0px 30px 50px;
+    border-style: none;
+    background-color: rgb(215, 206, 206);
+    padding: 10px 5px ;
+    font-size: 12px;
+    border-radius: 6px;
+    
+}
+.btn-lucky{
+    align-items: center;
+    margin-left: 5px;
+    border-style: none;
+    background-color: rgb(215, 206, 206);
+    padding: 10px 5px ;
+    border-radius: 6px;
+}

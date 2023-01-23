@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+}
+.header1{
+    display:flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+    font-weight: bold;
+    font-size:100%;
+    background-color: rgb(24, 49, 62);
+
+}   
+
+nav{
+    display:flex;
+}
+nav .logo{
+    padding: 10px;
+}
+.logo{
+    width:400px;
+    box-sizing: border-box;
+    max-width: 25%;
+   
+    box-sizing: border-box;
+}
+.logo img{
+    border-radius: 70px;
+    width: 90px;
+    height:90px;
+}
+.navs{
+    padding: 30px 15px;
+    position:absolute;
+    right:0;
+    display:flex;
+    justify-content:flex-end;
+    
+    min-width:500px;
+}
+.navs p{
+    padding: 15px;
+}
+.navs i{
+position: absolute;
+top:45px;
+left:10%;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+}
+.navs p .btn{
+    color:#fff;
+    border:none;
+    border-radius:6px ;
+    margin:0 10px;
+    box-sizing: border-box;
+    width:100px;
+    height:30px;
+    background-color: rgb(121, 193, 20);
+}
+
+
+
+.app-dropdown1{
+  
+    color:rgb(1, 1, 1);
+    box-sizing: border-box;
+
+    position:absolute;
+    top:53%;
+    left:10%;
+    width: 100px;
+    height:100px;
+    padding: 2px 0 0 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 10px;
+ display:none;
+}
+.drop_down_wrapper:hover .app-dropdown1{
+    display:block;
+}
+.app-dropdown1 p{
+   display:block;
+    border-bottom: 1px dashed rgba(255,255,255,0.4);
+    padding:1px;
+    margin: 5px;
+    border-bottom:0.5px solid rgb(201, 201, 192) ;
+    
+}
+.app-dropdown1 p:hover{
+    box-shadow: 0 2px 10px rgba(0, 0, 0);
+    cursor: pointer;
+
+}
+.div_section1{
+    height: 700px;
+    grid-area:div_section1 ;
+    color: #fff;
+    background: url(picture/than.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+
+}
+.div_section1 h3{
+    position:absolute;
+    top: 57%;
+    left:30%;
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(134, 42, 0, 0.9);
+    font-weight:bolder;
+    letter-spacing: 2px;
+}
+.div_section1 p{
+    position:absolute;
+    line-height: 1em;
+    top: 70%;
+    left:20%;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding-right: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.stepsdiv{
+    padding:4px;
+height: 400px;
+display: grid;
+background-color: rgb(253, 255, 254);
+grid-template-areas: 'div1 div2 div3 div4';
+grid-area: stepsdiv;
+}
+.contianer{
+
+display: grid;
+grid-template-areas:'div_section1 div_section1 div_section1 div_section1'
+'stepsdiv stepsdiv stepsdiv stepsdiv'
+;
+}
+.stepsdiv .div1{
+    grid-area: div1;
+background-color: rgb(17, 18, 17);
+text-align: center;
+color: white;
+font-size: 1.5em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding:5px;
+border-radius: 9px 0 0 0;
+}
+.stepsdiv .div1 p{
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.stepsdiv .div2 p{
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.stepsdiv .div3 p{
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.stepsdiv .div4 p{
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.stepsdiv .div1 .icon{
+    font-size:100px;
+}
+.stepsdiv .div1 .icon:hover {
+font-size:150px;
+
+}
+.stepsdiv .div2 .icon:hover {
+    font-size:150px;
+    
+    }
+    .stepsdiv .div3 .icon:hover {
+        font-size:150px;
+        
+        }
+        .stepsdiv .div4 .icon:hover {
+            font-size:150px;
+            
+            }
+
+.stepsdiv .div2 .icon{
+    font-size:100px;
+}
+.stepsdiv .div3 .icon{
+    font-size:100px;
+}
+.stepsdiv .div4 .icon{
+    font-size:100px;
+}
+.stepsdiv .div2{
+background-color: rgb(210, 133, 56);
+grid-area: div2;
+text-align: center;
+color: rgb(4, 4, 4);
+font-size: 1.5em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stepsdiv .div3{
+background-color: rgb(130, 0, 0);
+grid-area: div3;
+text-align: center;
+color: rgb(213, 152, 152);
+font-size: 1.5em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stepsdiv .div4{
+    border-radius: 0 9px 0 0px;
+background-color: rgb(5, 58, 58);
+grid-area: div4;
+text-align: center;
+color: rgba(227, 192, 192, 0.7);
+font-size: 1.5em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

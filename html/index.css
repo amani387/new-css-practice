@@ -1,0 +1,26 @@
+.container{
+    background-color: rgb(11, 122, 83);
+    display:grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+    max-width: 100%;
+    max-height: 50%;
+    
+}
+.div1{
+    background-color: aqua;
+}
+.div2{
+    background-color: aqua;
+}
+.div3{
+    background-color: aqua;
+}
+.div4{
+    background-color: aqua;
+}
+.div5{
+    background-color: aqua;
+}

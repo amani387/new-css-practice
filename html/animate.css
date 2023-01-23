@@ -1,0 +1,15 @@
+.container{
+    background-color: aquamarine;
+    width:300px;
+    height: 150px;
+    border-radius: 9px;
+    margin:35px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);/*  THE TRANSFORM PROPERTY WILL GIVE OBVIOSLY THE
+    WILL ALIGN THE ITEM IN THE MIDDLE BUT IF U SEE IT CLOSELY IT BEGINS FROM THE CENTER
+BUT THE TRANSFORM WILL CONSIDER THE DIV'S WIDTH ENA MEHAL LEMEHAL NW MIASKEMITEW FOCUS BEYYA!
+    */
+
+
+}

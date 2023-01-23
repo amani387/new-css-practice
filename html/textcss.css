@@ -1,0 +1,17 @@
+h1{
+    color:blue;
+    text-align:center;
+    font-style:italic;
+    text-decoration:none;
+    text-transform:capitalize;
+}
+p{
+    color:brown;
+    text-align:center;
+    font-style:none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    line-height: 2;
+    font-family:'Poppins', sans-serif;
+}

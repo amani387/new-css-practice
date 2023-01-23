@@ -1,0 +1,40 @@
+.div2{
+    width: 300px;
+    height:300px;
+    margin:48px;
+    background-color: lightgray;
+    transition-property: background-color;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in;
+
+
+}
+.div2:hover{
+    width: 300px;
+    height:300px;
+    margin:48px;
+    background-color:lightcoral;
+
+}
+.div1{
+    width: 300px;
+    height:300px;
+    margin:48px;
+    background-color: bisque;
+    transition-property: background-color;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in;
+
+    transition-timing-function: ease-out;
+/*  
+IN THE TRANSITION PROPERTY AS A SUMMERY WE CAN HAVE 
+    -transition:background-color 3s ease-out,border-radius 3s ease-out;
+AS IT IS SHOWN ON THE ABOVE LINE WE CAN SPECIFY IT WITHIN COMMA SEPARATED 
+LINE
+    ;
+
+*/
+}
+.div1:hover{
+background-color: aqua;
+}

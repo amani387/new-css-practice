@@ -1,0 +1,30 @@
+.btn-facebook{
+    background-color:rgb(7, 63, 174) ;
+    color:rgb(255, 255, 255);
+    padding:15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border:none;
+}
+.btn-google{
+    background-color:rgb(227, 88, 88) ;
+    color:rgb(255, 255, 255);
+    padding:15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border:none;
+}
+.btn-github{
+    background-color:rgb(0, 0, 0) ;
+    color:rgb(255, 255, 255);
+    padding:15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border:none; 
+}
+.label{
+    padding-left: 9px;
+}

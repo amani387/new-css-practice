@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(255, 255, 255, 0.367);
+    font-size: 70px;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/R.e3539c8db8a55c56c633257ab91d0182?rik=ICoLazdZT7QSTg&riu=http%3a%2f%2fmerrychristmaswishes.info%2fwp-content%2fuploads%2f2018%2f09%2ffree-high-resolution-chalkboard-background-968670-hi-res-background-images-2400x1943-for-meizu-NiSndR.jpg&ehk=53JgrTZLW5B00G6JtunSS07l1MsVphs2hXGKNZkob0w%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+}
+.container{
+    background-color:rgba(255,255,255,0.9);
+    width:700px;
+    height: 200px;
+    align-items:center;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+    border-radius: 12px;
+    
+}
+.btn{
+    display: block;
+    margin: 50px 0 10px 50px;
+    background-color: rgba(0,255,0,0.4);
+    border:1px solid rgba(255,255,255,0.3) ;
+    width:100px;
+    height:30px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.btn:hover{
+    width: 120px;
+    background-color:rgba(0,255,0,0.9);
+}
+.container p{
+    font-size: 10px;
+    margin-left: 60px;
+}
+.icons{
+    margin-right: 20px;
+    margin-left: 20px;
+    width:50px;
+    height: 50px;
+    font-size:90px;
+}
+.icon{
+width: 100px;
+height: 50px;
+}

@@ -1,0 +1,36 @@
+body{
+    margin:0%;
+}
+main{
+    padding: 16px 10%;
+}
+header{
+    
+    height: 100px;
+    background-color:rgb(143, 219, 219);
+    position:sticky;
+    top:0;
+
+}
+footer{
+    
+    height:400px;
+    background-color:rgba(213, 203, 203, 0.957);
+
+}
+aside{
+    width:20%;
+    height: 400px;
+    background-color:#de681f;
+    display: inline-block;
+    margin-right:20px ;
+   
+}
+section{
+    width: 69%;
+    height: 400px;
+background-color: #eaac76;
+display: inline-block;
+
+}
+}

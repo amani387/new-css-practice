@@ -1,0 +1,41 @@
+.order-list{
+    list-style-type:square;
+
+}
+.unordered-list{
+    list-style-type:circle;
+}
+.btn-sign{
+    background-color:rgb(102, 193, 239);
+    border:none;
+    border-radius: 20px 20px 20px 20px;
+    width:90px;
+    height:60px;
+margin:5px 5px;
+outline: none;
+cursor:pointer;
+opacity: 0.5;
+cursor:not-allowed;
+}
+.btn-sign:hover{
+    background-color: #fff;
+    color: #000;
+    opacity:1.0;
+    border:3px solid #000;
+}
+
+.btn-log{
+    background-color:rgb(255, 255, 255);
+    border: 2px solid rgb(20, 251, 255);
+    border-radius: 20px 20px 20px 20px;
+    width:90px;
+    height:60px;
+    margin:5px 5px;
+    align-self: center;
+}
+.btn-log:hover{
+    background-color: rgb(171, 11, 11);
+    color:aliceblue;
+    border: none;
+}
+

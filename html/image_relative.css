@@ -1,0 +1,19 @@
+nav{
+    background-color: rgb(255, 60, 102);
+    height: 30px;
+}
+.container{
+   margin-top:10%;
+   margin-left: 10%;
+    background-color: aqua;
+    width: 300px;
+    border-radius: 20px;
+}
+.imagae{
+    padding-top: 10%;
+width:300px;
+height: 300px;
+position: relative;
+left: -40px;
+border-radius:10px;
+}

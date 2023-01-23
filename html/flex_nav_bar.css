@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    background-color: #ffffff;
+    min-width: 800px;
+}
+header{
+    padding:12px 20px 0px 30px;
+    border-bottom:1px solid rgb(209, 202, 202);
+    position:sticky;
+    top: 0;
+    background-color: rgb(236, 230, 230);
+    box-shadow: 0 2px 5px #aaa;
+}
+
+
+#left-menu{
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-grow:0.5;
+box-sizing: border-box;
+padding-left: 50px;
+font-weight: bolder;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#left-menu p:hover{
+    font-weight: bolder;
+
+color:#0086ff;
+}
+#right-menu{
+    width: 300px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    }
+    #right-menu #search-container #notification-icon:hover{
+        padding-right: 30px;
+    }
+    #right-menu #search-container #search-icon:hover{
+        padding-right: 10px;
+    }
+#logo{
+
+    color:#0086ff;
+    font-size: 32px;
+    letter-spacing: -1px;
+    text-shadow: #6ebcff 3px 4px 3px;
+
+}
+#logo::first-letter{
+    color: rgb(239, 5, 5);
+    font-size: 50px;
+    font-style:normal; 
+    
+}
+
+nav{
+    display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   box-shadow: 0 2px 5px #aaa;
+   margin-bottom: 9px;
+   border-radius:23px;
+}
+#search-container{
+    display: flex;
+    width: 100%;
+    
+}
+#search-container > input{
+width: 100%;
+height:30px;
+border:1px solid #ccc;
+border-radius: 10px;
+outline-style: none;
+margin-right: 100px;
+}
+#search-icon{
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:150px;
+    top: 53px;
+    z-index: 10;
+  
+}
+#notification-icon{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:10px;
+    width:20px;
+    height:17px;
+ 
+    margin-left: 10px;
+    margin-right: 1px;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+.container .divs{
+    margin:10px;
+   display: block;
+   width:500px;
+   height:500px;
+   background-color: rgb(241, 241, 241);
+    align-items: center;
+    border-radius:30px;
+   box-shadow:-1px 2px 8px 1px rgb(153, 146, 146);
+}
+.container .divs p{
+    display:flex;
+    flex-wrap: wrap;
+    padding:0px 10px 5px 9px;
+
+   
+}
+.images{
+    width:100%;
+    height:400px;
+    padding-bottom:10px;
+    border-radius: 30px 30px 0 0;
+}

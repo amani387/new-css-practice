@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+text-align: center;
+font-size: 3em;
+}
+/*selectin the first paragraph of each article */
+article>p:first-of-type{
+    background-color:lightblue;
+
+}
+/*Selecting the last paragraph*/
+article>p:last-of-type{
+    background-color:red;
+
+}
+/*Selecting the second paragraph of each article*/
+article>p:nth-of-type(2){
+    background-color:blue;
+}
+/**/
